@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:paddingLeft="50px"
+      android:paddingTop= "7.5px"
+      android:paddingBottom="7.5px"
+    android:textSize="18sp"
+    android:textColor="@color/white"
+    android:textStyle="bold"
+    style="@style/CustomTheme" android:autoText="false">
+</TextView>
+	

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, weatherapp!</string>
+    <string name="app_name">Weather</string>
+    <string name="loading">Retrieving data.....</string>
+     <string name="no_crops">no Crops</string><string-array name="places_array">
+        <item>Anuradhapura</item>
+        <item>Badulla</item>
+        <item>Batticaloa</item>
+        <item>Colombo</item>
+        <item>Diyatalawa</item>
+        <item>Galle</item>
+        <item>Hambantota</item>
+        <item>Jaffna</item>
+        <item>Kandy</item>
+        <item>Katunayake</item>
+        <item>Kurunegala</item>
+        <item>Maha Illuppallama</item>
+        <item>Mannar</item>
+        <item>Mullaittivu</item>
+        <item>Nuwara Eliya</item>
+        <item>Puttalam</item>
+        <item>Ratmalana</item>
+        <item>Ratnapura</item>
+        <item>Trincomalee</item>
+        <item>Vavuniya</item>
+    </string-array>
+    
+
+
+</resources>

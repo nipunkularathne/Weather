@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/tabhost" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TabWidget android:id="@android:id/tabs"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		<FrameLayout android:id="@android:id/tabcontent"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<LinearLayout android:id="@+id/tab1"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+				<AbsoluteLayout android:id="@+id/widget63"
+					android:layout_width="320px" android:layout_height="394px" android:background="@drawable/back2">
+					<TextView android:id="@+id/main_location"
+						android:layout_width="266px" android:layout_height="wrap_content"
+						 android:textSize="18sp" android:textStyle="bold"
+						android:layout_x="28px" android:layout_y="8px" />
+					<LinearLayout android:id="@+id/widget246"
+						android:layout_width="wrap_content" android:layout_height="23px"
+						android:layout_x="30px" android:layout_y="30px">
+						<TextView android:id="@+id/main_update"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:text="Updated:" android:textSize="12sp" />
+
+						<TextView android:id="@+id/main_local_time"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							 android:textSize="12sp" />
+
+					</LinearLayout>
+
+					<ImageView android:id="@+id/main_image"
+						android:layout_width="54px" android:layout_height="51px"
+						android:layout_x="33px" android:layout_y="45px" />
+
+					<TextView android:id="@+id/main_nature"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						 android:textSize="16sp" android:textStyle="bold|italic"
+						android:layout_x="125px" android:layout_y="60px" />
+
+					<TextView android:id="@+id/main_latitude_label"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="Latitude:" android:layout_x="29px" android:layout_y="115px" />
+
+					<LinearLayout android:id="@+id/widget66"
+						android:layout_width="280px" android:layout_height="29px"
+						android:layout_x="134px" android:layout_y="115px">
+						<TextView android:id="@+id/main_latitude"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							 />
+
+					</LinearLayout>
+					<TextView android:id="@+id/main_longitude_label"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="Longitude:" android:layout_x="29px"
+						android:layout_y="150px" />
+
+					<LinearLayout android:id="@+id/widget69"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_x="134px" android:layout_y="150px">
+						<TextView android:id="@+id/main_longitude"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							 />
+
+					</LinearLayout>
+					<TextView android:id="@+id/main_temp_label"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="Temperature:" android:layout_x="29px"
+						android:layout_y="185px" />
+
+					<LinearLayout android:id="@+id/widget74"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_x="134px" android:layout_y="185px">
+						<TextView android:id="@+id/main_temp"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							 />
+
+						<TextView android:id="@+id/celci_dew"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:text="C" />
+
+					</LinearLayout>
+					<TextView android:id="@+id/main_humd_label"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="Humidity:" android:layout_x="29px" android:layout_y="220px" />
+
+					<LinearLayout android:id="@+id/widget79"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_x="134px" android:layout_y="220px">
+						<TextView android:id="@+id/main_humd"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							 />
+
+						<TextView android:id="@+id/wind_unit"
+							android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+					</LinearLayout>
+					<TextView android:id="@+id/main_wind_label"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="Wind:" android:layout_x="29px" android:layout_y="255px" />
+
+					<LinearLayout android:id="@+id/widget83"
+						android:layout_width="257px" android:layout_height="wrap_content"
+						android:layout_x="134px" android:layout_y="255px">
+						<TextView android:id="@+id/main_wind"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							 />
+
+					</LinearLayout>
+					<TextView android:id="@+id/main_pres_label"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="Pressure:" android:layout_x="29px" android:layout_y="290px" />
+
+					<LinearLayout android:id="@+id/widget83"
+						android:layout_width="257px" android:layout_height="wrap_content"
+						android:layout_x="134px" android:layout_y="290px">
+						<TextView android:id="@+id/main_press"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							 />
+
+						<TextView android:id="@+id/press_unit"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:text="hPa" />
+
+					</LinearLayout>
+					<TextView android:id="@+id/main_visibility_label"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="Visibility:" android:layout_x="29px"
+						android:layout_y="325px" />
+
+					<LinearLayout android:id="@+id/widget83"
+						android:layout_width="257px" android:layout_height="wrap_content"
+						android:layout_x="134px" android:layout_y="325px">
+						<TextView android:id="@+id/main_visi"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							 />
+
+						<TextView android:id="@+id/press_unit"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:text="kilometers" />
+
+					</LinearLayout>
+				</AbsoluteLayout>
+			</LinearLayout>
+
+
+
+
+			<LinearLayout android:id="@+id/tab2"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+				<AbsoluteLayout android:id="@+id/widget63"
+					android:layout_width="320px" android:layout_height="432px" android:background="@drawable/back2">
+					<TextView android:id="@+id/temp_location"
+						android:layout_width="266px" android:layout_height="wrap_content"
+						 android:textSize="18sp" android:textStyle="bold"
+						android:layout_x="28px" android:layout_y="13px" />
+					<LinearLayout android:id="@+id/widget246"
+						android:layout_width="wrap_content" android:layout_height="23px"
+						android:layout_x="30px" android:layout_y="37px">
+						<TextView android:id="@+id/temp_update"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:text="Updated:" android:textSize="12sp" />
+
+						<TextView android:id="@+id/temp_local_time"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							 android:textSize="12sp" />
+
+					</LinearLayout>
+
+					<ImageView android:id="@+id/temp_image"
+						android:layout_width="54px" android:layout_height="51px"
+						android:layout_x="45px" android:layout_y="70px" />
+
+					<TextView android:id="@+id/temp_nature"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:textSize="16sp" android:textStyle="bold|italic"
+						android:layout_x="135px" android:layout_y="85px" />
+
+					<TextView android:id="@+id/widget205"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="Temperature" android:textSize="16sp"
+						android:textStyle="bold" android:layout_x="100px"
+						android:layout_y="150px" />
+
+					<TextView android:id="@+id/temp_c_label"
+						android:layout_width="wrap_content" android:layout_height="29px"
+						android:text="Temperature in Celsious:" android:textSize="16sp"
+						android:layout_x="12px" android:layout_y="210px" />
+
+					<LinearLayout android:id="@+id/widget66"
+						android:layout_width="100px" android:layout_height="29px"
+						android:layout_x="220px" android:layout_y="210px">
+						<TextView android:id="@+id/temp_cel"
+							android:layout_width="wrap_content" android:layout_height="192px"
+							 android:textSize="16sp" />
+
+						<TextView android:id="@+id/cel" android:layout_width="wrap_content"
+							android:layout_height="wrap_content" android:text="C"
+							android:textSize="16sp" />
+
+					</LinearLayout>
+					<TextView android:id="@+id/temp_f_label"
+						android:layout_width="239px" android:layout_height="30px"
+						android:text="Temperature in Farenheight:" android:textSize="16sp"
+						android:layout_x="12px" android:layout_y="262px" />
+					<LinearLayout android:id="@+id/widget74"
+						android:layout_width="wrap_content" android:layout_height="26px"
+						android:layout_x="220px" android:layout_y="262px">
+						<TextView android:id="@+id/temp_far"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							 android:textSize="16sp" />
+
+						<TextView android:id="@+id/celci_unit"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:text="F" android:textSize="16sp" />
+
+					</LinearLayout>
+
+
+
+
+				</AbsoluteLayout>
+			</LinearLayout>
+
+
+
+			<LinearLayout android:id="@+id/tab3"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+				<AbsoluteLayout android:id="@+id/widget63"
+					android:layout_width="320px" android:layout_height="394px" android:background="@drawable/back2">
+					<TextView android:id="@+id/humi_location"
+						android:layout_width="266px" android:layout_height="wrap_content"
+						 android:textSize="18sp" android:textStyle="bold"
+						android:layout_x="28px" android:layout_y="13px" />
+					<LinearLayout android:id="@+id/widget248"
+						android:layout_width="wrap_content" android:layout_height="23px"
+						android:layout_x="30px" android:layout_y="38px">
+						<TextView android:id="@+id/humi_update"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:text="Updated:" android:textSize="12sp" />
+
+						<TextView android:id="@+id/humi_local_time"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							 android:textSize="12sp" />
+
+					</LinearLayout>
+					<ImageView android:id="@+id/humi_image"
+						android:layout_width="54px" android:layout_height="51px"
+						android:layout_x="33px" android:layout_y="60px" />
+
+					<TextView android:id="@+id/humi_nature"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						 android:textSize="16sp" android:textStyle="bold|italic"
+						android:layout_x="125px" android:layout_y="70px" />
+
+					<TextView android:id="@+id/humi_label"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="Humidity:" android:layout_x="29px" android:layout_y="115px" />
+
+					<LinearLayout android:id="@+id/widget66"
+						android:layout_width="280px" android:layout_height="29px"
+						android:layout_x="147px" android:layout_y="115px">
+						<TextView android:id="@+id/humi_humi"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							 />
+
+					</LinearLayout>
+					<TextView android:id="@+id/humi_dew_label"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="Dew Point:" android:layout_x="29px"
+						android:layout_y="150px" />
+
+					<TextView android:id="@+id/humi_dew_c_label"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="In Celsius" android:layout_x="45px"
+						android:layout_y="170px" />
+					<LinearLayout android:id="@+id/widget69"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_x="146px" android:layout_y="170px">
+						<TextView android:id="@+id/humi_dew_cel"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							 />
+
+						<TextView android:id="@+id/humi_dew_celci_unit"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:text="C" />
+
+					</LinearLayout>
+
+
+					<TextView android:id="@+id/humi_dew_far_label"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="In Farenheight" android:layout_x="45px"
+						android:layout_y="190px" />
+
+					<LinearLayout android:id="@+id/widget74"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_x="146px" android:layout_y="190px">
+						<TextView android:id="@+id/humi_dew_far"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							 />
+
+						<TextView android:id="@+id/widget243"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:text="F" />
+
+					</LinearLayout>
+
+
+					<TextView android:id="@+id/humi_heat_label"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="Heat Index:" android:layout_x="29px"
+						android:layout_y="230px" />
+
+					<TextView android:id="@+id/humi_heat_cel_label"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="In Celsius" android:layout_x="46px"
+						android:layout_y="250px" />
+					<LinearLayout android:id="@+id/widget83"
+						android:layout_width="257px" android:layout_height="19px"
+						android:layout_x="148px" android:layout_y="250px">
+						<TextView android:id="@+id/humi_heat_cel"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							 />
+
+						<TextView android:id="@+id/humi_heat_cel_unit"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:text="C" />
+
+					</LinearLayout>
+					<TextView android:id="@+id/humi_heat_far_label"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="In Farenheight" android:layout_x="46px"
+						android:layout_y="270px" />
+					<LinearLayout android:id="@+id/widget83"
+						android:layout_width="257px" android:layout_height="wrap_content"
+						android:layout_x="150px" android:layout_y="270px">
+						<TextView android:id="@+id/humi_heat_far"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							 />
+
+						<TextView android:id="@+id/humi_heat_far_unit"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:text="F" />
+
+					</LinearLayout>
+
+					<TextView android:id="@+id/humi_eveva_label"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="Elevation:" android:layout_x="33px"
+						android:layout_y="300px" />
+
+					<LinearLayout android:id="@+id/widget83"
+						android:layout_width="257px" android:layout_height="wrap_content"
+						android:layout_x="151px" android:layout_y="300px">
+						<TextView android:id="@+id/humi_eveva"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							 />
+
+						<TextView android:id="@+id/humi_eveva_unit"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:text="ft" />
+
+					</LinearLayout>
+
+
+
+				</AbsoluteLayout>
+			</LinearLayout>
+
+
+
+			<LinearLayout android:id="@+id/tab4"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+				<AbsoluteLayout android:id="@+id/widget68"
+					android:layout_width="320px" android:layout_height="394px" android:background="@drawable/back2">
+					<TextView android:id="@+id/wind_location"
+						android:layout_width="266px" android:layout_height="wrap_content"
+						 android:textSize="18sp" android:textStyle="bold"
+						android:layout_x="30px" android:layout_y="10px" />
+
+					<LinearLayout android:id="@+id/widget249"
+						android:layout_width="wrap_content" android:layout_height="23px"
+						android:layout_x="30px" android:layout_y="30px">
+						<TextView android:id="@+id/wind_update"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:text="Updated:" android:textSize="12sp" />
+
+						<TextView android:id="@+id/wind_local_time"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							 android:textSize="12sp" />
+
+					</LinearLayout>
+					<ImageView android:id="@+id/wind_image"
+						android:layout_width="54px" android:layout_height="51px"
+						android:layout_x="33px" android:layout_y="72px" />
+
+					<TextView android:id="@+id/wind_nature"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						 android:textSize="16sp" android:textStyle="bold|italic"
+						android:layout_x="126px" android:layout_y="82px" />
+
+					<TextView android:id="@+id/wind_wind_label"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="Wind" android:textSize="16sp" android:textStyle="bold"
+						android:layout_x="112px" android:layout_y="140px" />
+
+					<TextView android:id="@+id/main_wind_direction_label"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="Wind Direction:" android:layout_x="32px"
+						android:layout_y="180px" />
+
+					<LinearLayout android:id="@+id/widget61"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_x="147px" android:layout_y="180px">
+						<TextView android:id="@+id/wind_direction"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							 />
+
+					</LinearLayout>
+					<TextView android:id="@+id/wind_degree_label"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:text="Wind Degree:" android:layout_x="32px"
+						android:layout_y="230px" />
+
+					<LinearLayout android:id="@+id/widget74"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_x="147px" android:layout_y="230px">
+						<TextView android:id="@+id/wind_degree"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							 />
+
+					</LinearLayout>
+					<TextView android:id="@+id/wing_speed_label"
+						android:layout_width="wrap_content" android:layout_height="20px"
+						android:text="Wind Speed:" android:layout_x="32px"
+						android:layout_y="280px" />
+
+					<LinearLayout android:id="@+id/widget83"
+						android:layout_width="257px" android:layout_height="wrap_content"
+						android:layout_x="142px" android:layout_y="280px">
+						<TextView android:id="@+id/wind_speed"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							 />
+
+						<TextView android:id="@+id/wind_speed_unit"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:text="MPH" />
+
+					</LinearLayout>
+				</AbsoluteLayout>
+			</LinearLayout>
+
+
+		
+<LinearLayout
+android:id="@+id/tab5"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<AbsoluteLayout
+android:id="@+id/widget62"
+android:layout_width="320px"
+android:layout_height="394px"
+android:background="@drawable/back2"
+>
+<TextView
+android:id="@+id/press_location"
+android:layout_width="266px"
+android:layout_height="wrap_content"
+
+android:textSize="18sp"
+android:textStyle="bold"
+android:layout_x="30px"
+android:layout_y="6px"
+>
+</TextView>
+<LinearLayout
+android:id="@+id/widget244"
+android:layout_width="wrap_content"
+android:layout_height="23px"
+android:layout_x="30px"
+android:layout_y="30px"
+>
+<TextView
+android:id="@+id/press_update"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Updated:"
+android:textSize="12sp"
+>
+</TextView>
+<TextView
+android:id="@+id/press_local_time"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="TextView"
+android:textSize="12sp"
+>
+</TextView>
+</LinearLayout>
+<ImageView
+android:id="@+id/press_image"
+android:layout_width="54px"
+android:layout_height="51px"
+android:layout_x="33px"
+android:layout_y="72px"
+>
+</ImageView>
+<TextView
+android:id="@+id/press_nature"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="TextView"
+android:textSize="16sp"
+android:textStyle="bold|italic"
+android:layout_x="129px"
+android:layout_y="84px"
+>
+</TextView>
+<TextView
+android:id="@+id/press_label"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Pressure"
+android:textSize="16sp"
+android:textStyle="bold"
+android:layout_x="126px"
+android:layout_y="139px"
+>
+</TextView>
+<TextView
+android:id="@+id/main_press_bar_label"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Pressure kilopascals"
+android:layout_x="32px"
+android:layout_y="185px"
+>
+</TextView>
+<LinearLayout
+android:id="@+id/widget69"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_x="190px"
+android:layout_y="185px"
+>
+<TextView
+android:id="@+id/press_bar"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="TextView"
+>
+</TextView>
+<TextView android:id="@+id/wind_speed_unit"
+android:layout_width="wrap_content" android:layout_height="wrap_content"
+android:text="kPa" />
+</LinearLayout>
+<TextView
+android:id="@+id/press_in_label"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Pressure in"
+android:layout_x="33px"
+android:layout_y="240px"
+>
+</TextView>
+<LinearLayout
+android:id="@+id/widget74"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_x="188px"
+android:layout_y="240px"
+>
+<TextView
+android:id="@+id/press_in"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="TextView"
+>
+</TextView>
+<TextView android:id="@+id/wind_speed_unit"
+							android:layout_width="wrap_content" android:layout_height="wrap_content"
+							android:text="in" />
+</LinearLayout>
+</AbsoluteLayout>
+</LinearLayout>
+			
+
+		</FrameLayout>
+	</LinearLayout>
+</TabHost>

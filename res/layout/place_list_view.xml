@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:isScrollContainer="true" android:fitsSystemWindows="true"
+	style="@style/CustomTheme">
+	<AbsoluteLayout android:id="@+id/widget29"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		>
+	<ListView android:id="@+id/android:list"
+			android:layout_width="fill_parent" android:layout_height="375px" android:background="@drawable/sl"/> 
+			
+			<ImageView android:id="@+id/footer"    	
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0px" android:layout_y="370px"
+        android:layout_centerVertical="true"
+        android:clickable="true"       
+        android:src="@drawable/icta">
+   </ImageView> 
+	
+</AbsoluteLayout>
+</LinearLayout>
+

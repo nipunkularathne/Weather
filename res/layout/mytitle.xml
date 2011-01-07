@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title"
+    android:layout_width="fill_parent"
+    android:layout_height="26dip"
+    android:paddingLeft="5dip"
+    android:layout_gravity="left|center">
+<ImageView
+        android:id="@+id/logo"
+        android:src="@drawable/logo_both"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        
+         />
+         
+         <TextView
+android:id="@+id/myTitle"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:paddingLeft="5px"
+android:paddingRight="10px"
+android:text="Sri Lanka Weather"
+android:typeface="sans"
+android:textStyle="bold"
+android:gravity="center"
+android:textSize="17px"
+android:textColor="#ffffff"
+
+
+/>
+         <Button
+android:id="@+id/bk"
+android:layout_width="45px"
+android:layout_height="25px"
+android:paddingLeft="15px"
+android:textSize="20sp"
+android:background="@drawable/search"
+
+>
+
+</Button>
+
+
+</LinearLayout>
